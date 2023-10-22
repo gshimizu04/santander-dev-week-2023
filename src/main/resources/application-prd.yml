@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://root:pu5ewyKoP2ZNah33VPyq@containers-us-west-110.railway.app:6909/railway
+    username: ${MYSQLUSER}
+    password: ${MYSQLPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
